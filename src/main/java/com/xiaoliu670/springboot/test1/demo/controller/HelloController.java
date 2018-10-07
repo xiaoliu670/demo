@@ -9,6 +9,8 @@ public class HelloController {
 
     @RequestMapping (value="/login", method= RequestMethod.GET)
     public String hello(){
+
+        String b="dev11223344";
         return "hello world springboot project";
     }
 }
